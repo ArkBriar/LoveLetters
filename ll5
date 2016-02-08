@@ -1,0 +1,13 @@
+/**
+ * 遇见你，已经是我最美丽的意外
+ * by 瓜
+ */
+
+$gua = new codeMonkey('normal');
+$u = new goddess('special');
+$gua->say('hello')->to($u)->admire($u);
+try {
+    $u->reject($gua);
+} catch (Exception $e) {
+    $u->accept($gua)->love($gua);
+}

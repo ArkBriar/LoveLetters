@@ -1,0 +1,8 @@
+Distance = 1001;
+While (Distance > 0)
+{
+You.wait_for_me();
+Dog.run_toward_you();
+Distance --;
+}
+Kiss(you, dog);
